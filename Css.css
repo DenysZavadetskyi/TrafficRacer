@@ -1,0 +1,49 @@
+/* Immagine iniziale del gioco */
+.pane{
+	-fx-background-image: url("sfondo.jpg");
+	-fx-background-size: 900 500;
+    -fx-background-repeat: stretch;
+	-fx-background-position: center center;
+	}
+	
+/* A tutte le label assegna il colore del testo bianco e la grandezza del testo */
+.label{
+	-fx-text-fill:white;
+	-fx-font-size: 170%;
+}
+
+/* Immagine del Introduzione del gioco */
+.grid{
+	-fx-background-image: url("sfondo1.jpg");
+	-fx-background-size: 1000 700;
+    -fx-background-repeat: stretch;
+	-fx-background-position: center center;
+}
+
+/* A tutti i button assegna un colore nero e il testo bianco */
+.button{
+	-fx-background-color:black;
+	-fx-text-fill: white;
+}
+
+/* Immagine del garage */ 
+.garage{
+	-fx-background-image: url("garage.png");
+	-fx-background-size: 500 500;
+    -fx-background-repeat: stretch;
+	-fx-background-position: center center;
+}
+
+/* Immagine del game over */
+.game{
+	-fx-background-image: url("gameover.jpg");
+	-fx-background-size: 500 500;
+    -fx-background-repeat: stretch;
+	-fx-background-position: center center;
+}
+
+/* Ai button che sono nella finestra di gameover assegna il colore bianco e il testo nero */
+.colorebutton {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+}
